@@ -19,11 +19,5 @@ let g:neocomplcache_enable_auto_select = 1
 if !exists('g:neocomplcache_omni_patterns')
 	let g:neocomplcache_omni_patterns = {}
 endif
-let g:neocomplcache_omni_patterns.haxe = '\v([\]''"\)]|\w|(^\s*))(\.|\()'
 
-let g:vaxe_nme_target = 'flash'
-
-autocmd BufRead,BufNewFile *.hx set ff=dos
-
-set autowrite
 filetype plugin indent on
